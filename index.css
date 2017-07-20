@@ -1,6 +1,38 @@
-html {
-    color: orange;
+html{
+    font-family: courier;
+    color:white ;
+    background-color: #6a90ba;
 }
+
 h1{
-    color: red;
+    text-align:center;
+    font-weight:bold;
+    border: white double;
+    font-size: 60px;
+}
+
+p{
+    color: #ffc7c7;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+ul{
+    text-align: center;
+    padding: 8px ;
+}
+
+.checkbox{
+    padding: 8px;
+}
+
+submit {
+    background-color:pink;
+    border: black solid 2px;
+    text-align: center;
+    font-size: 15px ;
+    padding: 6px 6px;
+    color: black;
 }
